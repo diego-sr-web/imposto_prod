@@ -10,18 +10,11 @@ jobs:
     steps:
     - name: 🚚 Get latest code
       uses: actions/checkout@v4
-
-    - name: 🔍 Check secrets
-      run: |
-        echo "FTP_HOST_IMPOSTOMETRO: ${{ secrets.ftp_host_impostometro }}"
-        echo "FTP_USER_IMPOSTOMETRO: ${{ secrets.ftp_user_impostometro }}"
-        echo "FTP_PASSWORD_IMPOSTOMETRO: ${{ secrets.ftp_password_impostometro }}"
-
+    
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@v4.3.5
       with:
-        server: ${{ secrets.ftp_host_impostometro }}
-        username: ${{ secrets.ftp_user_impostometro }}
-        password: ${{ secrets.ftp_password_impostometro }}
-        local-dir: .
+        server: ftpupload.net
+        username: if0_36904389
+        password: lvNO8KtYORh
         server-dir: htdocs/
