@@ -11,6 +11,6 @@
     <a href="../impostometro/pages/youtube5.php">Impostometro Banner 5</a><br>
     <a href="../impostometro/pages/youtube6.php">Impostometro Banner 6</a><br>
     <a href="../impostometro/pages/presidente.php">Presidentes</a><br>
-    <a href="../impostometro/pages/parte.php">Cron</a>
+    <a href="../impostometro/pages/parte.php">Cron </a>
 </body>
 </html> 
