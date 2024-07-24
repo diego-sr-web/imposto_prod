@@ -1,0 +1,135 @@
+
+    @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Bebas+Neue&display=swap');
+
+    .bg {
+      background: #C3CBC8;
+    }
+
+    .bg1 {
+      background: #4b4b5a;
+    }
+
+    .bg2 {
+      background: #DA9835;
+    }
+
+    .bg3 {
+      background: #f3b92f;
+    }
+
+    .bg-w {
+      background: #fff;
+    }
+
+    .valor-moeda {
+      min-height: 150px;
+    }
+
+    .rs {
+      font-size: 10px;
+      color: #ccc;
+    }
+
+    .box {
+      border-radius: 6px;
+    }
+
+    .box-nome {
+      font-family: "Barlow Condensed", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 1.5rem;
+      text-transform: uppercase;
+      color: #f1f1f1 !important;
+      text-align: center;
+      margin: 0 !important;
+      padding: 0 !important;
+    }
+
+    .box-valor {
+      font-family: "Bebas Neue", sans-serif;
+      font-weight: 500;
+      font-style: normal;
+      font-size: 35px;
+      color: #f3b92f;
+      text-align: center;
+      margin: 0 !important;
+      padding: 0 !important;
+    }
+
+    .box-time {
+      font-family: "Oswald", sans-serif;
+      font-size: 10px;
+      color: #bbb;
+      font-weight: 400;
+      text-align: center;
+      margin: 0 !important;
+      padding: 0 !important;
+    }
+
+    .div-sobreposta {
+      position: absolute;
+      top: 0px;
+      left: 80px;
+      width: 150px;
+      height: 20px;
+      background-color: rgba(255, 0, 0, 0);
+      z-index: 9999;
+      padding: 12px;
+      font-family: "Bebas Neue", sans-serif;
+      font-weight: 300;
+      font-size: 10px;
+      margin: 0px;
+      padding: 3px;
+    }
+
+    /* .item {
+      background-color: #f3b92f;
+      color: #333 ;
+    }
+
+    .item:nth-last-child(-n+2) {
+      background-color: #333;
+      color: #f3b92f ;
+    } */
+  
+
+    .banner-container {
+      position: relative;
+      width: 100%;
+      height: 300px;
+      /* Ajuste conforme necessário */
+      overflow: hidden;
+    }
+
+    .banner {
+      position: absolute;
+      top: 0;
+      left: 100%;
+      width: 100%;
+      height: 100%;
+      background-color: #ddd;
+      text-align: center;
+      line-height: 300px;
+      /* Alinhar verticalmente, ajuste conforme necessário */
+      font-size: 24px;
+      transition: left 1s ease-in-out;
+    }
+
+    .banner.active {
+      left: 0;
+    }
+
+    .banner.inactive {
+      left: -100%;
+    }
+
+    #video-frame {
+      width: 100%;
+      height: 100%;
+    }
+
+    
